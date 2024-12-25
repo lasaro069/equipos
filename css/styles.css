@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: lato, sans-serif;
+}
+
+body {
+    background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.header {
+    background-color: rgba(35, 32, 32, 0.7);
+    color: bisque;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    font-size: 1.5rem;
+
+}
+
+h1 {
+    width: 50%;
+    padding-left: 0px;
+}
+
+.navbar {
+    width: 50%;
+    padding-left: 0px;
+    display: flex;
+    justify-content: right;
+}
+
+.navbar a {
+    text-decoration: ;
+    color: bisque;
+    font-size: 1rem;
+    padding-left: 20px;
+}
+
+.footer {
+    background-color: rgba(35, 32, 32, 0.7);
+    color: bisque;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+/* MENU DE OPCIONES */
+.principal {
+    background-color: rgba(206, 205, 220, 0.5);
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    justify-content: center;
+    align-items: center;    /* alinea los items de manera horizontal */
+    align-content: center;    /* alinea los items de manera horizontal */
+    width: 60vh;
+    height: 70vh;
+    margin-top: 30px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px black;
+}
+
+.contenedor-opciones {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.opciones {
+    background-color: rgba(210, 206, 216, 1);
+    width: 25vh;
+    height: 25vh;
+    margin: 7px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.opciones:hover {
+    background-color: rgba(210, 206, 216, 0.5);
+    transform: scale(1.1);
+    transition: 200ms;
+}
+
+.imagen {
+    width: 50%;
+    height: 50%;
+}
+
+.texto-opcion {
+    color: black;
+    margin-top: 5px;
+}
+
+
+/*      FORMULARIO INGRESAR     */
+
+
+.contenedor-formulario {
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    width: 600px;
+    justify-self: center;
+}
+
+.formulario-ingreso {
+    background-color: rgba(255, 245, 238, 0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    height: 100%;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px black;
+}
+
+.contenedor-inputs {
+    display: flex;
+    margin-top: 1px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 40px;
+    width: 90%;
+    
+}
+
+.label-inputs-formulario {
+    width: 40%;
+    display: flex;
+    justify-content: right;
+    margin-right: 15px;
+
+}
+
+.entrada-datos {
+    width: 60%;
+    height: 30px;
+    border: none;
+    box-shadow: 1px 1px 1px 1px gray;
+    border-radius: 5px;
+}
+
+
+
+
+.label-inputs-formulario-imagen {
+
+}
+
+.entrada-datos-imagen {
+}
+
+.boton-ingresar {
+    margin-top: 10px;
+    height: 60px;
+    width: 160px;
+    border: none;
+    background-color: darkcyan;
+    font-weight: bold;
+    font-size: 1rem;
+    border-radius: 25px;
+    box-shadow: 2px 2px 5px black;
+}
+
+.boton-ingresar:hover {
+    color: white;
+    background-color: darkolivegreen;
+    transform: scale(1.1);
+    transition: 200ms;
+}
