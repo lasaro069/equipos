@@ -1,3 +1,5 @@
+<?php include ('ddbb.php') ?>
+
 <?php include ('header.php') ?>
 
 

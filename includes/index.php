@@ -1,6 +1,6 @@
+<?php include ('ddbb.php') ?>
+
 <?php include ('header.php') ?>
-
-
 
 <div class="principal">
     <h2>Selecciona una opción</h2>
