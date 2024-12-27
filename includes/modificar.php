@@ -16,11 +16,6 @@
 
         </div>
 
-        <div class="contenedor-inputs">
-
-            <label class="label-inputs-formulario" for="nr_serie">Número de Serie:</label>
-            <input class="entrada-datos" type="text" id="nr_serie" name="nr_serie" required><br>
-        </div>
 
         <div class="contenedor-inputs">
             <label class="label-inputs-formulario" for="marca">Marca:</label>
